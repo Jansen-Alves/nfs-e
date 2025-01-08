@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Ativa o modelo flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que o body ocupe 100% da altura da janela */
+    margin: 0; /* Remove margens padrão */
+    background-color: rgb(167, 247, 247);
+  }
+  form{
+    align-items: center;
+    padding: 5px;
+  }
+  #campo{
+    padding: 5px;
+  }
+  #formulario{
+    background-color: white;
+    width: 20%;
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreado */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+  }
+  .product-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+  }
+  input[type="number"] {
+    padding: 5px;
+    width: 100px;
+  }
+  dialog::backdrop{
+    background-color: rgb(0 0 0/.5);
+
+  }
+  dialog{
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb(0 0 0/.3);
+    
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Produtos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div id="formulario">
+  
+    <h1>Nota de Produtos</h1>
+    <form id="productForm">
+     
+      <div id="campo">
+          <label for="productContainer"> Prdutos</label>
+          <div id="productContainer">
+            <!-- Campos serão adicionados aqui -->
+          </div>
+          <button type="button" id="addProductButton">Adicionar Produto</button>
+      </div>
+      <div id="campo">
+          <div><label for="IRPF">IRPF</label></div>
+          <input type="text" name="IRPF" id="IRPF" placeholder="IRPF">
+      </div>
+      <div id="campo">
+          <div><label for="PIS">PIS</label></div>
+          <input type="text" name="PIS" id="PIS" placeholder="PIS">
+      </div>
+      <div id="campo">
+          <div><label for="COFINS">COFINS</label></div>
+          <input type="text" name="COFINS" id="COFINS" placeholder="COFINS">
+      </div>
+      <div id="campo">
+          <div><label for="INSS">INSS</label></div>
+          <input type="text" name="INSS" id="INSS" placeholder="INSS">
+      </div>
+      <div id="campo">
+          <div><label for="IRPF">ISSQN</label></div>
+          <input type="text" name="ISSQN" id="ISSQN" placeholder="ISSQN">
+      </div>
+      <div id="campo">
+        <label for="valorVenda">Valor final:</label>
+        <p><input type="text" id="valorVenda" placeholder="Valor total da venda"></p>
+      </div>
+      
+      <button type="button" id="NotaFiscalButton">calcular</button>
+    </form>
+</div>
+<dialog>
+      <div id="containerNFSE"></div>
+      <button id="close">Fechar</button>
+</dialog>
+  <script src="script.js" defer>
+    
+  </script>
+</body>
+</html>

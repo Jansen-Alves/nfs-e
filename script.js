@@ -31,7 +31,7 @@ const productContainer = document.getElementById('productContainer');
         function calcularImposto(inputVenda, inputPercentual, nameField, label) {
             const valor = parseFloat(inputVenda.value * (parseFloat(inputPercentual.value) / 100)).toFixed(2);
             nameField.value = valor;
-            nameField.innerText = `${label}: R$${valor}`;
+            nameField.innerText = `${label}: R$${valor}(${inputPercentual.value}%)`;
             return parseFloat(valor);
         }
         const produtoInputs = document.querySelectorAll('input[name="productName[]"]');
